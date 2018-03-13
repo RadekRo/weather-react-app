@@ -19,7 +19,7 @@ class Forecast extends Component {
                 width: 100%;
                 text-align: center;
                 padding-top: 5px;
-                color: #B0B3B3;
+                color: orange;
                 font-size: 15px;
         `;
 
