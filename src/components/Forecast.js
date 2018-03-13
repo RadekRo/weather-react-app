@@ -19,7 +19,7 @@ class Forecast extends Component {
                 width: 100%;
                 text-align: center;
                 padding-top: 5px;
-                color: #B3B3B3;
+                color: #B0B3B3;
                 font-size: 15px;
         `;
 
@@ -42,8 +42,8 @@ class Forecast extends Component {
                         <Title>{ dayName } </Title>
                         <img src={ this.renderImage(this.props.image) } alt='weather icon' />
                         <Temperatures>
-                        max: { this.props.max } &#8451;<br/>
-                        min: { this.props.min } &#8451;
+                            Daily max:<br/>
+                            { Math.floor(this.props.max) } &#8451;<br/>
                         </Temperatures>
                     </WeatherSet>
             </React.Fragment>

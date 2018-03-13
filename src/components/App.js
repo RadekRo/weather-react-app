@@ -50,7 +50,6 @@ class App extends Component {
                       time={ element.dt_txt }
                       image={ element.weather[0].icon }
                       max={ element.main.temp_max }
-                      min={ element.main.temp_min }
                       key={ idx }
                   /> :
                   null
